@@ -48,7 +48,7 @@ function createUserCard(user) {
     const cardHTML = `
     <div class="card">
     <div>
-      <img src="${user.avatar_url}" alt="${user.name}" class="avatar">
+      <a href="${user.html_url}" target="blank"><img src="${user.avatar_url}" alt="${user.name}" class="avatar"></a>
     </div>
     <div class="user-info">
       <h2>${userID}</h2>
